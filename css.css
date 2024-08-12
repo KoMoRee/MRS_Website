@@ -1,0 +1,59 @@
+td,tr,th {
+    vertical-align: top;
+    
+}
+
+* {  
+    font-family: 'Kanit', sans-serif;
+  }
+
+#background {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fcfcfc, #6cbf43);
+}
+
+#content-box {
+    width: 100%;
+    max-width: 90%;
+    background-color: rgba(160, 250, 75, 0.76) ;
+    margin: 2rem auto 0.3rem;
+    padding: 0.6rem 0.4rem 1rem;
+    border-radius: 10px;
+    
+}
+
+#p1 {
+    font-size: 1rem;
+}
+
+ul li {
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul li span {
+    position:absolute;
+    right: 15%;
+    
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    color: #030303;
+    
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background: #8b8787;
+    cursor: pointer;
+}
+
+/* #name-input-form {
+    margin-left: 10%;
+    margin-top: 3rem;
+} */
+

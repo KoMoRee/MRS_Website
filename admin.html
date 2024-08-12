@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="./css.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+
+</head>
+<body>
+    <div id="background">
+        <h1 class="text-center">MRS</h1>
+        <div class="d-flex justify-content-center ">
+            <span class="text-black">M</span>
+            <span class="text-secondary">odern</span> &nbsp;
+            <span class="text-black">R</span>
+            <span class="text-secondary">ecycling</span> &nbsp;
+            <span class="text-black">S</span>
+            <span class="text-secondary">tation</span>
+        </div>
+
+        &nbsp;
+
+        <div class="text-center py-5">
+            <label type="radio" for="money-input" class="py-2">กรอกจำนวนเงิน</label>
+            <br>
+            <input class="" id="money-input" type="text" placeholder="กรอกจำนวนเงิน">
+            <br>
+
+            <label type="radio" for="carbon-input" class="py-2">กรอกจำนวนคาร์บอนเครดิต</label>
+            <br>
+            <input class="" id="carbon-input" type="text" placeholder="กรอกจำนวนคาร์บอนเครดิต">
+           
+            <div class="text-center p-5">
+                <button onclick="submitButtonOnClick()" 
+                class="btn btn-success">submit</button>
+            </div>
+        </div>
+        <script src="./script/admin.js"></script>
+</body>
+</html>
